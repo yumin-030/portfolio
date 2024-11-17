@@ -6,12 +6,11 @@
     <title>김유민 Portfolio</title>
     <link rel="stylesheet" href="./css/reset_.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
-    <nav>
-    </nav>
     <div class="main">
-        <div class="blur"><img src="./images/main_gra.png" alt="gra"></div>
+        <div class="blur"><img src="./images/main-gra.png" alt="gra"></div>
         <ul>
             <li>HOME</li>
             <li>/</li>
@@ -21,22 +20,25 @@
             <li>/</li>
             <li>ETC.</li>
         </ul>
-        <h1><img src="./images/txt_hi_shadow.png" alt="h1"><img src="./images/txt_designer_shadow.png" alt="h1"></h1>
+        <h1><img src="./images/hi-txt.png" alt="h1"><img src="./images/name-txt.png" alt="h1"></h1>
     </div>
     <div class="am">
-        <h2>ABOUT ME</h2>
-        <p>안녕하세요, 디자이너 김유민입니다.</p>
+        <div class="am-title">
+            <h2>ABOUT ME</h2>
+            <p>안녕하세요, 디자이너 김유민입니다.</p>
+        </div>
         <section>
             <div class="profile"><img src="./images/IMG_1729.JPG" alt="profile"></div>
             <ul>
                 <li>
                     <h3>Education</h3>
-                    <b>2024.07 &#126; 2024.11<br>그린컴퓨터아트학원</b>
+                    <b>2024.07 - 2024.11<br><span>그린컴퓨터아트학원</span></b>
                     <p>&#40;디지털 디자인&#41; UX&#47;UI 디자이너를 위한<br>웹디자인 &amp; 웹퍼블리셔 실무 양성과정 수료</p>
                 </li>
                 <li>
                     <h3>Certificate</h3>
-                    <p>GTQ 포토샵 1급</p>
+                    <p><span>GTQ</span> 포토샵 1급</p>
+                    <p><span>GTQ</span> 일러스트 1급</p>
                 </li>
                 <li>
                     <h3>Skills</h3>
@@ -51,11 +53,11 @@
                         </li>
                         <li>
                             <b>HTML</b>
-                            <span class="bar_1"><span></span></span>
+                            <span class="bar_2"><span></span></span>
                         </li>
                         <li>
                             <b>CSS</b>
-                            <span class="bar_2"><span></span></span>
+                            <span class="bar_1"><span></span></span>
                         </li>
                         <li>
                             <b>JavaScript</b>
@@ -81,6 +83,126 @@
     </div>
     <div class="pf">
         <h2>PORTFOLIO</h2>
+        <section>
+            <div class="pf-con swiper-container">
+                <div class="pf-wrap swiper-wrapper">
+                    <div class="pf-slide swiper-slide">
+                        <div class="text">
+                            <h3>Neoteria</h3>
+                            <p>기존 사이트에서 불편감이 느껴지는 부분을 개선해 리디자인하였습니다.</p>
+                            <p>사용 툴 : Photoshop, Illustrator, Visual Studio Code <br>참여도 : 100%</p>
+                            <div class="btns">
+                                <div class="process1">작업과정</div>
+                                <div class="site"><a href="https://yumin-030.github.io/pf3/" target="_blank" rel="noopener noreferrer">사이트</a></div>
+                            </div>
+                        </div>
+                        <div class="visual"><img src="./images/neoteria.png" alt="neoteria"></div>
+                    </div>
+                    <div class="pf-slide swiper-slide">
+                        <div class="text">
+                            <h3>데싱디바</h3>
+                            <p>기존 사이트에서 불편감이 느껴지는 부분을 개선해 리디자인하였습니다.</p>
+                            <p>사용 툴 : Photoshop, Illustrator, Visual Studio Code <br>참여도 : 100%</p>
+                            <div class="btns">
+                                <div class="process2">작업과정</div>
+                                <div class="site"><a href="https://yumin-030.github.io/pf2/" target="_blank" rel="noopener noreferrer">사이트</a></div>
+                            </div>
+                        </div>
+                        <div class="visual"><img src="./images/dashing-diva.png" alt="neoteria"></div>
+                    </div>
+                    <div class="pf-slide swiper-slide">
+                        <div class="text">
+                            <h3>Sanrio</h3>
+                            <p>기존 사이트에서 불편감이 느껴지는 부분을 개선해 리디자인하였습니다.</p>
+                            <p>사용 툴 : Photoshop, Illustrator, Visual Studio Code <br>참여도 : 100%</p>
+                            <div class="btns">
+                                <div class="process3">작업과정</div>
+                                <div class="site"><a href="https://yumin-030.github.io/pf1/" target="_blank" rel="noopener noreferrer">사이트</a></div>
+                            </div>
+                        </div>
+                        <div class="visual"><img src="./images/sanrio.png" alt="neoteria"></div>
+                    </div>
+                </div>
+                <div class="pf-pg swiper-pagination"></div>
+            </div>
+        </section>
+        <div class="pf-open pf1">
+            <div><img src="./images/pf3-process.png" alt="process"></div>
+        </div>
+        <div class="pf-open pf2">
+            <div><img src="./images/pf2-process.png" alt="process"></div>
+        </div>
+        <div class="pf-open pf3">
+            <div><img src="./images/pf1-process.png" alt="process"></div>
+        </div>
+    </div>
+    <div class="etc">
+        <h2>ETC.</h2>
+        <section>
+            <ul>
+                <li>
+                    <div class="etc-bg bg1"><a href="https://yumin-030.github.io/todo/" target="_blank" rel="noopener noreferrer"><img src="./images/etc1.png" alt="todo"></a></div>
+                    <div class="txt">
+                        <p><a href="https://yumin-030.github.io/todo/" target="_blank" rel="noopener noreferrer">To do List</a></p>
+                        <b>자바스크립트를 활용해 랜덤 배경의 To do List를 제작하였습니다.</b>
+                    </div>
+                </li>
+                <li>
+                    <div class="etc-bg bg2 "><a href="https://yumin-030.github.io/updown/" target="_blank" rel="noopener noreferrer"><img src="./images/etc2.png" alt="updown"></a></div>
+                    <div class="txt">
+                        <p><a href="https://yumin-030.github.io/updown/" target="_blank" rel="noopener noreferrer">Up &#38;	Down Gmae</a></p>
+                        <b>자바스크립트를 활용해 지정 숫자를 맞히는 Up&#38;Down 게임을 제작하였습니다.</b>
+                    </div>
+                </li>
+                <li>
+                    <div class="etc-bg bg3"><a href="#"><img src="./images/etc3.png" alt="sanrio-icons"></a></div>
+                    <div class="txt">
+                        <p><a href="#">아이콘 카피 제작</a></p>
+                        <b>일러스트로 기존 디자인을 카피해 제작하였습니다.</b>
+                    </div>
+                </li>
+                <li>
+                    <div class="etc-bg"><a href="#"><img src="" alt=""></a></div>
+                    <div class="txt">
+                        <p><a href="#">Coming</a></p>
+                        <b>...</b>
+                    </div>
+                </li>
+                <li>
+                    <div class="etc-bg"><a href="#"><img src="" alt=""></a></div>
+                    <div class="txt">
+                        <p><a href="#">Coming</a></p>
+                        <b>...</b>
+                    </div>
+                </li>
+                <li>
+                    <div class="etc-bg"><a href="#"><img src="" alt=""></a></div>
+                    <div class="txt">
+                        <p><a href="#">Coming</a></p>
+                        <b>...</b>
+                    </div>
+                </li>
+                <li>
+                    <div class="etc-bg"><a href="#"><img src="" alt=""></a></div>
+                    <div class="txt">
+                        <p><a href="#">Coming</a></p>
+                        <b>...</b>
+                    </div>
+                </li>
+                <li>
+                    <div class="etc-bg"><a href="#"><img src="" alt=""></a></div>
+                    <div class="txt">
+                        <p><a href="#">Coming</a></p>
+                        <b>...</b>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <div class="etc-open etc3">
+            <div class="etc-con">
+                <img src="./images/etc3-open.png" alt="sanrio-icons">
+            </div>
+        </div>
     </div>
     <aside>
         <div class="top">
@@ -90,6 +212,8 @@
     </aside>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
 <script src="./js/jquery-ui.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./js/jquery.bxslider.js"></script>
 <script src="./js/index.js"></script>
 </body>
 </html>
