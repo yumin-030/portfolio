@@ -77,11 +77,15 @@ body::-webkit-scrollber-button {display:none;}
     /* left:350px; */
     left:430px;
 }
-.main > h1 > img:last-child {
+.main > h1 > img:nth-child(2) {
     right:430px;
     /* right:350px; */
     /* bottom:200px; */
     top:-380px;
+}
+.main > h1 > img:last-child {
+    top:100px;
+    right:100px;
 }
 .bounce {
     animation-name: bounce;
@@ -130,9 +134,6 @@ body::-webkit-scrollber-button {display:none;}
     justify-content:flex-start;
 }
 .am h2 {
-    font-family:'Times New Roman';
-    font-weight:bold;
-    font-size:90px;
     width:33.3%;
 }
 .am p {
@@ -262,11 +263,6 @@ body::-webkit-scrollber-button {display:none;}
     box-sizing:border-box;
     position:relative;
 }
-.pf > h2 {
-    font-family:'Times New Roman';
-    font-weight:bold;
-    font-size:90px;
-}
 .pf > section {
     width:100%;
     height:90%;
@@ -295,7 +291,7 @@ body::-webkit-scrollber-button {display:none;}
     display:flex;
     align-items:center;
     justify-content:space-between;
-    background: linear-gradient(#e4d6bb, #FAEED1);
+    background: linear-gradient(#e2d4b9, #FAEED1);
 }
 .pf > section .pf-slide .text {
     width:100%;
@@ -418,11 +414,6 @@ body::-webkit-scrollber-button {display:none;}
     box-sizing:border-box;
     position:relative;
 }
-.etc > h2 {
-    font-family:'Times New Roman';
-    font-weight:bold;
-    font-size:90px;
-}
 .etc > section {
     width:100%;
     height:80%;
@@ -494,33 +485,8 @@ body::-webkit-scrollber-button {display:none;}
 aside {
     position:fixed;
     right:40px;
-    bottom:40px;
+    bottom:50px;
 }
 aside > .top {
-    width:70px;
-    height:70px;
-    background-color:#BBAB8C;
-    border-radius:100%;
-    color:#FDF7E4;
-    display:flex;
-    opacity:0;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    gap:5px;
-    font-family:'Times New Roman';
-    font-weight:bold;
-    font-size:18px;
-}
-aside > .top:hover {
-    background-color:#8e826a;
     cursor:pointer;
-}
-aside > .top > div {
-    width:14px;
-    height:14px;
-}
-aside > .top > div > img {
-    width:100%;
-    height:100%;
 }
