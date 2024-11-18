@@ -291,7 +291,7 @@ body::-webkit-scrollber-button {display:none;}
     display:flex;
     align-items:center;
     justify-content:space-between;
-    background: linear-gradient(#e2d4b9, #FAEED1);
+    background: linear-gradient(#e2d4b9, #faebce);
 }
 .pf > section .pf-slide .text {
     width:100%;
