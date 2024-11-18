@@ -450,6 +450,7 @@ body::-webkit-scrollber-button {display:none;}
     border:1px solid rgb(187, 171, 140);
     border-radius:10px;
     background-color:rgba(187, 171, 140, 0.3);
+    overflow:hidden;
 }
 .etc > section > ul > li > .txt {
     width:250px;
